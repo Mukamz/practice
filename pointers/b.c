@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+void main()
+{
+	int a[5] = {1, 4, 2, -8, 8};
+	int *p = &a[0];
+	printf("Value is %d\n", *p);
+	p = p + 2;
+	printf("Value is %d\n", *p);
+
+}

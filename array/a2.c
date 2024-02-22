@@ -9,7 +9,6 @@ int main(void)
 {
 	int a[2][SIZE];
 	int i, j;
-	int sum = 0;
 
 	for (j = 0; j < 2; j++)
 	{
@@ -23,11 +22,9 @@ int main(void)
 		for (i = 0; i < SIZE; i++)
 		{
 			printf("%d\t", a[j][i]);
-			sum = sum + a[j][i];
 		}
 		printf("\n");
 	}
-	printf("sum = %d", sum);
 	printf("Value of a[1][0] is %d\n", a[1][0]);
 	return (0);
 }
